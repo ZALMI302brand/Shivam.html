@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Secure Login</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body onload="generateCaptcha();updateClock();">
+
+<header>
+<img src="ss.jpg">
+<nav>
+<a href="index.html">Home</a>
+</nav>
+</header>
+
+<div class="container">
+<div class="card">
+
+<h2>Student Login</h2>
+
+<div id="clock" class="clock"></div>
+
+<input type="text" id="userid" placeholder="Student ID">
+<input type="password" id="password" placeholder="Password">
+
+<h3 id="captchaText"></h3>
+<input type="text" id="captchaInput" placeholder="Enter Captcha">
+
+<button onclick="login()">Login</button>
+
+</div>
+</div>
+
+</body>
+</html>
